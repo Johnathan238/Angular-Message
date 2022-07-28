@@ -9,6 +9,11 @@ export class SuccessalertComponent implements OnInit {
 
   constructor() { }
 
+  btnSuccess() {
+    alert("This is a Success!")
+    console.log("This is a Success!");
+  }
+
   ngOnInit(): void {
   }
 
